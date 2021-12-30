@@ -12,7 +12,6 @@ message("UDEV? ${UDEV_LIB}")
 
 # Lib fmt
 add_subdirectory(3rdparty/fmt)
-find_package(fmt REQUIRED)
 
 # Add an executable
 add_executable(usb-mon main.cpp)
