@@ -24,3 +24,6 @@ target_link_libraries(usb-mon udev fmt::fmt)
 
 # Print Compile Features
 message("List of compile features: ${CMAKE_CXX_COMPILE_FEATURES}")
+
+# Install
+install(TARGETS usb-mon DESTINATION bin)
